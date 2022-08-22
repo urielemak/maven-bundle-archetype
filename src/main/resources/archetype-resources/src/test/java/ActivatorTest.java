@@ -1,3 +1,5 @@
-package ${package}
+package ${package};
 
-public class ActivatorTest { }
+public class ActivatorTest {
+
+}

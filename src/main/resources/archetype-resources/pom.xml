@@ -7,10 +7,13 @@
   <groupId>${groupId}</groupId>
   <artifactId>${artifactId}</artifactId>
   <version>${version}</version>
-
   <packaging>bundle</packaging>
-
   <name>Bundle project name</name>
+
+  <properties>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties> 
 
   <description>
     Bundle project description
@@ -37,7 +40,6 @@
 	<configuration>
 	  <instructions>
 	    <Export-Package>${project.groupId}.*</Export-Package>
-	    <Private-Package>!*</Private-Package>
 	    <Bundle-Activator>${project.groupId}.Activator</Bundle-Activator>
 	  </instructions>
 	</configuration>
