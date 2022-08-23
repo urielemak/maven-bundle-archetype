@@ -7,7 +7,7 @@ First of all, clone this repo in your directory.
 
     git clone https://github.com/urielemak/maven-bundle-archetype
 
-Go to the directory repo. `cd maven-bundle-archetype` and execute:
+Go to the directory. `cd maven-bundle-archetype` and execute:
 
     mvn install
 
