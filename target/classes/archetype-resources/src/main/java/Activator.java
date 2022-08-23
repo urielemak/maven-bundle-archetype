@@ -5,7 +5,13 @@ import org.osgi.framework.BundleContext;
 
 public class Activator implements BundleActivator {
     
-    public void start(BundleContext context) { }
+    @Override
+    public void start(BundleContext context) {
+	System.out.println("Congrats, bundle created!");
+    }
 
-    public void stop(BundleContext context) { }
+    @Override
+    public void stop(BundleContext context) {
+	System.out.println("Bundle stopped");
+    }
 }
