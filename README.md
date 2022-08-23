@@ -3,7 +3,7 @@
 A basic Maven archetype for create OSGI Bundles with Apache Felix.
 
 ## Installation
-Firt of all, clone this repo in your directory.
+First of all, clone this repo in your directory.
 
     git clone https://github.com/urielemak/maven-bundle-archetype
 
